@@ -12,7 +12,7 @@ html {
 }
 
 body {
-    background: linear-gradient(rgb(16,16,16,0.5), rgb(25,25,25,0.5)), url(imagens/pexels-photo-4489704.jpeg);
+    background: linear-gradient(rgb(16,16,16,0.5), rgb(25,25,25,0.5)), url(images.jpeg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -90,7 +90,7 @@ main{
 }
 
 footer{
-    background-color: rgb(28, 24, 24);
+    background-color: black;
     color: white;
     padding: 20px 0;
     font-size: 15px;
@@ -104,5 +104,3 @@ footer{
     margin-bottom: 0;
     padding: 20px;
 }
-
-
