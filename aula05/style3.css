@@ -23,6 +23,8 @@ header {
     width: 100%;
     height: 7vw;
     background: rgb(187, 154, 5);
+    display: flex;
+    justify-content: space-around;
 }
 
 .menu {
@@ -39,6 +41,7 @@ header {
     font-size: 1.8rem;
     letter-spacing: 0.4rem;
     cursor: pointer;
+    width: 5%;
 }
 
 .menu .lista-menu {
@@ -104,5 +107,33 @@ footer{
     margin-bottom: 0;
     padding: 20px;
 }
+.footer-form, .footer-conteiner{
+    flex: 1;
+    margin: 0 100px;
+}
+.footer-form h3, .footer-conteiner h3{
+    margin-bottom: 10px;
+}
+.footer-form form{
+    display: flex;
+    flex-direction: column;
+}
+.footer-form label{
+    margin-bottom: 5px;
+}
+.footer-form input{
+    margin-bottom: 10px;
+    padding: 5px;
 
+}
+.footer-form button{
+    padding: 10px;
+    font-size: 1.6rem;
+    background-color: yellow;
+    border: none;
+    cursor: pointer;
+}
 
+.footer-contact p {
+    margin-bottom: 10px;
+}

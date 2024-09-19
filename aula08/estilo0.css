@@ -6,9 +6,9 @@
 
 /* Aqui você irá adicionar as media queries para tornar a página responsiva complete as lacunas*/
 /* Para telas menores que 768px */
-@media (_____________) {
+@media (max-width: 768) {
     body {
-        background-color: yellow; 
+        background-color: blueviolet; 
     }
 
     main {
@@ -32,13 +32,13 @@
     }
 
     li {
-        display: ___________________; /* Exibe os itens da lista na mesma linha */
+        display: inline; /* Exibe os itens da lista na mesma linha */
         margin-right: 20px; /* Adiciona margem à direita entre os itens */
-        font-size: _________________;
+        font-size: 15px;
     }
 
     a:link {
-        color: #CCFFCC; /* Altera a cor dos links para tom de verde claro */
+        color: green; /* Altera a cor dos links para tom de verde claro */
         text-decoration: none;
     }
 
@@ -52,15 +52,15 @@
 
     footer {
         
-        background-color:____________;
+        background-color:blueviolet;
         color: white;
-        ________________: 20px;/*espaçamento interno*/
-        ________________: center;/*alinhamento de texto*/
+        padding: 20px;/*espaçamento interno*/
+        text-align: center;/*alinhamento de texto*/
     }
 }
 
 /* Para telas com tamanho mínimo de 768px ou maiores (desktop) */
-@media (____________________________) {
+@media (min-widtc: 768) {
     body {
         background-color: white;
     }
@@ -97,7 +97,7 @@
 
     img {
         display: inline; /* Exibe as imagens normalmente */
-        ___________: _________/* Define a largura das imagens 500 em px*/
+        width: 500px/* Define a largura das imagens 500 em px*/
     }
 
     div {
@@ -117,7 +117,7 @@
     footer{
         background-color: rgb(28, 28, 127);
        /* espaçamento interno*/
-       _____________ : 20px;
+        padding: 20px;
         text-align: center;
         color:aliceblue;
     }

@@ -32,13 +32,13 @@
     }
 
     li {
-        display: ___________________; /* Exibe os itens da lista na mesma linha */
+        display: inline; /* Exibe os itens da lista na mesma linha */
         margin-right: 20px; /* Adiciona margem à direita entre os itens */
-        font-size: _________________;
+        font-size: 15px;
     }
 
     a:link {
-        color: #CCFFCC; /* Altera a cor dos links para tom de verde claro */
+        color: green; /* Altera a cor dos links para tom de verde claro */
         text-decoration: none;
     }
 
@@ -52,10 +52,10 @@
 
     footer {
         
-        background-color:____________;
+        background-color:blueviolet;
         color: white;
         padding: 20px;/*espaçamento interno*/
-        _________: center;/*alinhamento de texto*/
+        text-align: center;/*alinhamento de texto*/
     }
 }
 
