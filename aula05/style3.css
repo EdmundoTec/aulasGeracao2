@@ -23,8 +23,7 @@ header {
     width: 100%;
     height: 7vw;
     background: rgb(187, 154, 5);
-    display: flex;
-    justify-content: space-around;
+    
 }
 
 .menu {
@@ -38,10 +37,8 @@ header {
 }
 
 .logo {
-    font-size: 1.8rem;
-    letter-spacing: 0.4rem;
     cursor: pointer;
-    width: 5%;
+    width: 10%;
 }
 
 .menu .lista-menu {
@@ -80,6 +77,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     gap: 20px;
 
 }
@@ -91,6 +89,46 @@ main{
     align-items: center;
     color: rgb(211, 190, 190);
 }
+
+.conteinerCards{
+    width: 950px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+.subConteiner{
+    width: 300px;
+    height: 350px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+img {
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.textoCards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+button{ 
+    background-color: yellow;
+    border-radius: 10px;
+    color: rgb(160, 160, 160);
+}
+
 
 footer{
     background-color: rgb(28, 24, 24);
@@ -115,6 +153,7 @@ footer{
     margin-bottom: 10px;
 }
 .footer-form form{
+    width: 50%;
     display: flex;
     flex-direction: column;
 }
@@ -128,10 +167,13 @@ footer{
 }
 .footer-form button{
     padding: 10px;
+    width: 20%;
     font-size: 1.6rem;
     background-color: yellow;
     border: none;
     cursor: pointer;
+    border-radius: 20px;
+    
 }
 
 .footer-contact p {

@@ -1,0 +1,68 @@
+
+
+body {
+    background: linear-gradient(rgba(201, 67, 218, 0.5), rgba(167, 112, 157, 0.5)), url(conjunto_de_moveis_para_montar_loja_de_roupas_6266253_2_ebbae598bee3b5dd84588f3c7bebb0c9.webp);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 52%;
+}
+
+main{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(211, 190, 190);
+}
+
+.conteinerCards{
+    width: 950px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+.subConteiner{
+    width: 300px;
+    height: 700px;
+    background-color: rgb(187, 132, 239);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+img {
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.textoCards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 23px;
+    color: white;
+}
+
+button{ 
+    background-color: blueviolet;
+    border-radius: 10px;
+    color: rgb(160, 160, 160);
+}
