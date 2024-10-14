@@ -1,0 +1,19 @@
+
+h1{
+    color: red; background-color: black;
+    text-align: center;
+    font-size: 36px;
+}
+
+h2{
+    color: deepskyblue;
+}
+
+ul,ol,li{
+    color: white;
+}
+
+body{
+    background-color: green;
+}
+
